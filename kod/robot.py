@@ -91,7 +91,7 @@ while True:
         input('Press Enter to stop')
     elif action == 'e':
         Lights(0)
-    elif action == 'test': # Test that runs though all the functions
+    elif action == 'test': # Test that runs through all the functions
         if input('Run test? Y/N: ').lower() == 'y':
             print('Forward')
             Forward()
